@@ -1,4 +1,11 @@
-if ping < 130 then
+if getgenv().AutoPrediction == true then
+        wait(5.2)
+            local pingvalue = game:GetService("Stats").Network.ServerStatsItem["Data Ping"]:GetValueString()
+            local split = string.split(pingvalue,'(')
+            local ping = tonumber(split[1])
+                local PingNumber = pingValue[1]
+                
+    if ping < 130 then
             _G.Prediction = 0.151
         elseif ping < 125 then
             _G.Prediction = 0.149
