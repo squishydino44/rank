@@ -1,0 +1,32 @@
+--// aimbot settings //--
+getgenv().RecurringPoint = "UpperTorso"
+getgenv().Hitbox = "UpperTorso"
+getgenv().Keybind = "q"
+getgenv().AimbotStrengthAmount = 1
+getgenv().PredictionAmount = 8
+getgenv().Radius = 32
+getgenv().UsePrediction = true
+getgenv().AimbotStrength = true
+getgenv().FirstPerson = true
+getgenv().ThirdPerson = false
+getgenv().TeamCheck = false
+getgenv().Enabled = true
+getgenv().AutoPrediction = true 
+--// silent aim settings //--
+getgenv().SilentAim = false
+_G.Prediction = .18
+_G.FOV = 666
+_G.AimKey = "x"
+
+--// DO NOT EDIT BELOW //--
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/squishydino44/rank/main/aim"))()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/squishydino44/rank/main/auto%20predict"))()
+
+if  getgenv().SilentAim == true then
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/squishydino44/rank/main/silent%20aim"))()
+            end
+-- // DO NOT EDIT ABOVE // --
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/squishydino44/rank/main/toggle%20esp"))()
