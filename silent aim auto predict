@@ -1,0 +1,21 @@
+if ping < 130 then
+            _G.Prediction = 0.151
+        elseif ping < 125 then
+            _G.Prediction = 0.149
+        elseif ping < 110 then
+            _G.Prediction = 0.146
+        elseif ping < 105 then
+            _G.Prediction = 0.138
+        elseif ping < 90 then
+            _G.Prediction = 0.136
+        elseif ping < 80 then
+            _G.Prediction = 0.134
+        elseif ping < 70 then
+            _G.Prediction = 0.131
+        elseif ping < 60 then
+            _G.Prediction = 0.160
+        elseif ping < 50 then
+            _G.Prediction = 0.153
+        elseif ping < 40 then
+            _G.Prediction = 0.15529888
+    end
