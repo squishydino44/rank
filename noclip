@@ -1,0 +1,43 @@
+	local noclipplayer = game:GetService("Players").LocalPlayer
+	local noclipmouse = noclipplayer:GetMouse()
+ 
+	local donoclip = false
+	local noclip = false
+ 
+	function b_noclip(key)
+		if (key == "z") then
+			if noclip == false then
+				donoclip = true
+ 
+				noclip = true
+        game.StarterGui:SetCore("SendNotification",  {
+		Title = "Elo Stealer 5000";
+		Text = "NOCLIP DISABLED";
+		Icon = "8569049326";
+		Duration = 1;
+		})
+			elseif noclip == true then
+				donoclip = false
+ 
+				noclip = false
+        game.StarterGui:SetCore("SendNotification",  {
+		Title = "Elo Stealer 5000";
+		Text = "NOCLIP DISABLED";
+		Icon = "8569049326";
+		Duration = 1;
+		})
+			end
+		end
+	end
+ 
+	noclipmouse.KeyDown:connect(b_noclip)
+ 
+	game:GetService("Players").LocalPlayer.Character.Head.Touched:connect(function(obj)
+		if obj ~= workspace.Terrain then
+			if donoclip == true then
+				obj.CanCollide = false
+			else
+				obj.CanCollide = true
+			end
+		end
+	end)
