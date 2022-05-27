@@ -1,7 +1,7 @@
 --// Waiting until game is loaded \\--
 repeat wait() until game:IsLoaded()
 --// Config \\--
-_G.KEY = "c" -- Key to lock player
+_G.KEY = "z" -- Key to lock player
 _G.PART = "UpperTorso" -- Part to lock victim's bodypart
 _G.PRED = 0.160 -- Prediction
 _G.Frame = Vector3.new(0, 0.53, 0) -- Idk what this is dont touch it tho
