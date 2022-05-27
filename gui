@@ -23,7 +23,7 @@ Section:NewButton("Aimlock", "(q) custom ciaz aimlock", function()
   game.StarterGui:SetCore("SendNotification",  {
 		Title = "SkidWare";
 		Text = "AIMBOT ON";
-		Icon = "8569049326";
+		Icon = "7018414259";
 		Duration = 1;
 		})
 end)
