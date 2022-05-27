@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("SkidWare", "DarkTheme")
+local Window = Library.CreateLib("Elo Stealer 5000", "DarkTheme")
 local Tab = Window:NewTab("Hood Modded")
 local Section = Tab:NewSection("Aimlock")
 Section:NewButton("Aimlock", "(q) custom ciaz aimlock", function()
@@ -21,7 +21,7 @@ Section:NewButton("Aimlock", "(q) custom ciaz aimlock", function()
   loadstring(game:HttpGet("https://raw.githubusercontent.com/squishydino44/rank/main/aim%20auto%20predict"))()
   
   game.StarterGui:SetCore("SendNotification",  {
-		Title = "SkidWare";
+		Title = "Elo Stealer 5000";
 		Text = "AIMBOT ON";
 		Icon = "7018414259";
 		Duration = 1;
@@ -31,7 +31,7 @@ Section:NewButton("ESP", "(v) simple esp", function()
      loadstring(game:HttpGet('https://raw.githubusercontent.com/squishydino44/rank/main/toggle%20esp'))()
      
      game.StarterGui:SetCore("SendNotification",  {
-		Title = "SkidWare";
+		Title = "Elo Stealer 5000";
 		Text = "ESP ON";
 		Icon = "7018414259";
 		Duration = 1;
@@ -41,7 +41,7 @@ Section:NewButton("Silent Aim", "(x) use against losers", function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/squishydino44/rank/main/dhm%20silent%20aim'))()
 	
 	game.StarterGui:SetCore("SendNotification",  {
-		Title = "SkidWare";
+		Title = "Elo Stealer 5000";
 		Text = "SILENT AIM ON";
 		Icon = "7018414259";
 		Duration = 1;
@@ -51,8 +51,18 @@ Section:NewButton("Fly", "(c) Fly and shoot", function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/squishydino44/rank/main/cframe%20fly'))()
 	
 	game.StarterGui:SetCore("SendNotification",  {
-		Title = "SkidWare";
+		Title = "Elo Stealer 5000";
 		Text = "FLY ON";
+		Icon = "7018414259";
+		Duration = 1;
+		})
+end)
+Section:NewButton("Noclip", "(z) noclip", function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/x4Yr88Zn"))()
+	
+	game.StarterGui:SetCore("SendNotification",  {
+		Title = "Elo Stealer 5000";
+		Text = "NOCLIP ON";
 		Icon = "7018414259";
 		Duration = 1;
 		})
@@ -61,7 +71,7 @@ Section:NewButton("Chat Spy", "read chat logs", function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/squishydino44/rank/main/chat%20spy'))()
 	
 	game.StarterGui:SetCore("SendNotification",  {
-		Title = "SkidWare";
+		Title = "Elo Stealer 5000";
 		Text = "CHAT SPY ON";
 		Icon = "7018414259";
 		Duration = 1;
