@@ -1,6 +1,9 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("SkidWare", "DarkTheme")
 local Tab = Window:NewTab("Hood Modded")
+Section:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.B, function()
+	Library:ToggleUI()
+end)
 local Section = Tab:NewSection("Aimlock")
 Section:NewButton("Aimlock", "(q) custom ciaz aimlock", function()
   getgenv().RecurringPoint = "UpperTorso"
