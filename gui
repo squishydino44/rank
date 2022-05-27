@@ -18,13 +18,19 @@ Section:NewButton("Aimlock", "(q) custom ciaz aimlock", function()
   getgenv().AutoPrediction = true
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/squishydino44/rank/main/aim"))()
   loadstring(game:HttpGet("https://raw.githubusercontent.com/squishydino44/rank/main/aim%20auto%20predict"))()
+  game.StarterGui:SetCore("SendNotification",  {
+		Title = "SkidWare";
+		Text = "AIMBOT ON";
+		Icon = "8569049326";
+		Duration = 1;
+		})
 end)
 Section:NewButton("ESP", "(v) simple esp", function()
      loadstring(game:HttpGet('https://raw.githubusercontent.com/squishydino44/rank/main/toggle%20esp'))()
      game.StarterGui:SetCore("SendNotification",  {
 		Title = "SkidWare";
 		Text = "ESP ON";
-		Icon = "8569049326";
+		Icon = "7018414259";
 		Duration = 1;
 		})
 end)
@@ -36,7 +42,7 @@ Section:NewButton("Silent Aim", "(x) use against losers", function()
 	game.StarterGui:SetCore("SendNotification",  {
 		Title = "SkidWare";
 		Text = "SILENT AIM ON";
-		Icon = "8569049326";
+		Icon = "7018414259";
 		Duration = 1;
 		})
 end)
@@ -45,7 +51,7 @@ Section:NewButton("Dot Silent Aim", "(z) silent aim with dot", function()
 	game.StarterGui:SetCore("SendNotification",  {
 		Title = "SkidWare";
 		Text = "DIT SILENT AIM ON";
-		Icon = "8569049326";
+		Icon = "7018414259";
 		Duration = 1;
 		})
 end)
@@ -54,7 +60,7 @@ Section:NewButton("Fly", "(c) Fly and shoot", function()
 	game.StarterGui:SetCore("SendNotification",  {
 		Title = "SkidWare";
 		Text = "FLY ON";
-		Icon = "8569049326";
+		Icon = "7018414259";
 		Duration = 1;
 		})
 end)
@@ -63,7 +69,7 @@ Section:NewButton("Chat Spy", "read chat logs", function()
 	game.StarterGui:SetCore("SendNotification",  {
 		Title = "SkidWare";
 		Text = "CHAT SPY ON";
-		Icon = "8569049326";
+		Icon = "7018414259";
 		Duration = 1;
 		})
 end)
