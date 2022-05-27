@@ -17,7 +17,9 @@ Section:NewButton("Aimlock", "(q) custom ciaz aimlock", function()
   getgenv().Enabled = true
   getgenv().AutoPrediction = true
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/squishydino44/rank/main/aim"))()
+	
   loadstring(game:HttpGet("https://raw.githubusercontent.com/squishydino44/rank/main/aim%20auto%20predict"))()
+  
   game.StarterGui:SetCore("SendNotification",  {
 		Title = "SkidWare";
 		Text = "AIMBOT ON";
@@ -27,6 +29,7 @@ Section:NewButton("Aimlock", "(q) custom ciaz aimlock", function()
 end)
 Section:NewButton("ESP", "(v) simple esp", function()
      loadstring(game:HttpGet('https://raw.githubusercontent.com/squishydino44/rank/main/toggle%20esp'))()
+     
      game.StarterGui:SetCore("SendNotification",  {
 		Title = "SkidWare";
 		Text = "ESP ON";
@@ -39,6 +42,7 @@ Section:NewButton("Silent Aim", "(x) use against losers", function()
   _G.FOV = 666
   _G.AimKey = "x"
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/squishydino44/rank/main/dhm%20silent%20aim'))()
+	
 	game.StarterGui:SetCore("SendNotification",  {
 		Title = "SkidWare";
 		Text = "SILENT AIM ON";
@@ -47,7 +51,12 @@ Section:NewButton("Silent Aim", "(x) use against losers", function()
 		})
 end)
 Section:NewButton("Dot Silent Aim", "(z) silent aim with dot", function()
+	_G.KEY = "z" -- Key to lock player
+	_G.PART = "UpperTorso" -- Part to lock victim's bodypart
+	_G.PRED = 0.160 -- Prediction
+	_G.Frame = Vector3.new(0, 0.53, 0) -- Idk what this is dont touch it tho
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/squishydino44/rank/main/dhm%20dot%20silent'))()
+	
 	game.StarterGui:SetCore("SendNotification",  {
 		Title = "SkidWare";
 		Text = "DIT SILENT AIM ON";
@@ -57,6 +66,7 @@ Section:NewButton("Dot Silent Aim", "(z) silent aim with dot", function()
 end)
 Section:NewButton("Fly", "(c) Fly and shoot", function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/squishydino44/rank/main/cframe%20fly'))()
+	
 	game.StarterGui:SetCore("SendNotification",  {
 		Title = "SkidWare";
 		Text = "FLY ON";
@@ -66,6 +76,7 @@ Section:NewButton("Fly", "(c) Fly and shoot", function()
 end)
 Section:NewButton("Chat Spy", "read chat logs", function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/squishydino44/rank/main/chat%20spy'))()
+	
 	game.StarterGui:SetCore("SendNotification",  {
 		Title = "SkidWare";
 		Text = "CHAT SPY ON";
