@@ -1,0 +1,42 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("SkidWare", "DarkTheme")
+local Tab = Window:NewTab("Hood Modded")
+local Section = Tab:NewSection("Aimlock")
+Section:NewButton("Aimlock", "(q) custom ciaz aimlock", function()
+  getgenv().RecurringPoint = "UpperTorso"
+  getgenv().Hitbox = "UpperTorso"
+  getgenv().Keybind = "q"
+  getgenv().AimbotStrengthAmount = 1
+  getgenv().PredictionAmount = 8
+  getgenv().Radius = 32
+  getgenv().UsePrediction = true
+  getgenv().AimbotStrength = true
+  getgenv().FirstPerson = true
+  getgenv().ThirdPerson = false
+  getgenv().TeamCheck = false
+  getgenv().Enabled = true
+  getgenv().AutoPrediction = true
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/squishydino44/rank/main/aim"))()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/squishydino44/rank/main/aim%20auto%20predict"))()
+end)
+Section:NewButton("ESP", "(v) simple esp", function()
+     loadstring(game:HttpGet('https://raw.githubusercontent.com/squishydino44/rank/main/toggle%20esp'))()
+end)
+Section:NewButton("Silent Aim", "(x) use against losers", function()
+  _G.Prediction = .18
+  _G.FOV = 666
+  _G.AimKey = "x"
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/squishydino44/rank/main/dhm%20silent%20aim'))()
+end)
+Section:NewButton("Dot Silent Aim", "(z) silent aim with dot", function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/squishydino44/rank/main/dhm%20dot%20silent'))()
+end)
+Section:NewButton("Fly", "(c) Fly and shoot", function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/squishydino44/rank/main/cframe%20fly'))()
+end)
+Section:NewButton("Chat Spy", "read chat logs", function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/squishydino44/rank/main/chat%20spy'))()
+end)
+local Tab = Window:NewTab("Credits")
+local Section = Tab:NewSection("Credits")
+label:UpdateLabel("yuh")
