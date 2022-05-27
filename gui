@@ -47,16 +47,6 @@ Section:NewButton("Silent Aim", "(x) use against losers", function()
 		Duration = 1;
 		})
 end)
-Section:NewButton("Dot Silent Aim", "(z) silent aim with dot", function()
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/squishydino44/rank/main/dhm%20dot%20silent'))()
-	
-	game.StarterGui:SetCore("SendNotification",  {
-		Title = "SkidWare";
-		Text = "DIT SILENT AIM ON";
-		Icon = "7018414259";
-		Duration = 1;
-		})
-end)
 Section:NewButton("Fly", "(c) Fly and shoot", function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/squishydino44/rank/main/cframe%20fly'))()
 	
