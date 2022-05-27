@@ -58,7 +58,7 @@ Section:NewButton("Fly", "(c) Fly and shoot", function()
 		})
 end)
 Section:NewButton("Noclip", "(z) noclip", function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/x4Yr88Zn"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/squishydino44/rank/main/noclip"))()
 	
 	game.StarterGui:SetCore("SendNotification",  {
 		Title = "Elo Stealer 5000";
