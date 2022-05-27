@@ -38,9 +38,6 @@ Section:NewButton("ESP", "(v) simple esp", function()
 		})
 end)
 Section:NewButton("Silent Aim", "(x) use against losers", function()
-  _G.Prediction = .18
-  _G.FOV = 666
-  _G.AimKey = "x"
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/squishydino44/rank/main/dhm%20silent%20aim'))()
 	
 	game.StarterGui:SetCore("SendNotification",  {
@@ -51,10 +48,6 @@ Section:NewButton("Silent Aim", "(x) use against losers", function()
 		})
 end)
 Section:NewButton("Dot Silent Aim", "(z) silent aim with dot", function()
-	_G.KEY = "z" -- Key to lock player
-	_G.PART = "UpperTorso" -- Part to lock victim's bodypart
-	_G.PRED = 0.160 -- Prediction
-	_G.Frame = Vector3.new(0, 0.53, 0) -- Idk what this is dont touch it tho
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/squishydino44/rank/main/dhm%20dot%20silent'))()
 	
 	game.StarterGui:SetCore("SendNotification",  {
