@@ -21,25 +21,55 @@ Section:NewButton("Aimlock", "(q) custom ciaz aimlock", function()
 end)
 Section:NewButton("ESP", "(v) simple esp", function()
      loadstring(game:HttpGet('https://raw.githubusercontent.com/squishydino44/rank/main/toggle%20esp'))()
+     game.StarterGui:SetCore("SendNotification",  {
+		Title = "SkidWare";
+		Text = "ESP ON";
+		Icon = "8569049326";
+		Duration = 1;
+		})
 end)
 Section:NewButton("Silent Aim", "(x) use against losers", function()
   _G.Prediction = .18
   _G.FOV = 666
   _G.AimKey = "x"
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/squishydino44/rank/main/dhm%20silent%20aim'))()
+	game.StarterGui:SetCore("SendNotification",  {
+		Title = "SkidWare";
+		Text = "SILENT AIM ON";
+		Icon = "8569049326";
+		Duration = 1;
+		})
 end)
 Section:NewButton("Dot Silent Aim", "(z) silent aim with dot", function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/squishydino44/rank/main/dhm%20dot%20silent'))()
+	game.StarterGui:SetCore("SendNotification",  {
+		Title = "SkidWare";
+		Text = "DIT SILENT AIM ON";
+		Icon = "8569049326";
+		Duration = 1;
+		})
 end)
 Section:NewButton("Fly", "(c) Fly and shoot", function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/squishydino44/rank/main/cframe%20fly'))()
+	game.StarterGui:SetCore("SendNotification",  {
+		Title = "SkidWare";
+		Text = "FLY ON";
+		Icon = "8569049326";
+		Duration = 1;
+		})
 end)
 Section:NewButton("Chat Spy", "read chat logs", function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/squishydino44/rank/main/chat%20spy'))()
+	game.StarterGui:SetCore("SendNotification",  {
+		Title = "SkidWare";
+		Text = "CHAT SPY ON";
+		Icon = "8569049326";
+		Duration = 1;
+		})
+end)
+Section:NewKeybind("Toggle UI", "do not use zxcv", Enum.KeyCode.B, function()
+	Library:ToggleUI()
 end)
 local Tab = Window:NewTab("Credits")
 local Section = Tab:NewSection("Credits")
 label:UpdateLabel("yuh")
-Section:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.B, function()
-	Library:ToggleUI()
-end)
