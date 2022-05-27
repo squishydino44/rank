@@ -57,16 +57,6 @@ Section:NewButton("Fly", "(c) Fly and shoot", function()
 		Duration = 1;
 		})
 end)
-Section:NewButton("Noclip", "(z) noclip", function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/squishydino44/rank/main/noclip"))()
-	
-	game.StarterGui:SetCore("SendNotification",  {
-		Title = "Elo Stealer 5000";
-		Text = "NOCLIP ON";
-		Icon = "7018414259";
-		Duration = 1;
-		})
-end)
 Section:NewButton("Chat Spy", "read chat logs", function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/squishydino44/rank/main/chat%20spy'))()
 	
