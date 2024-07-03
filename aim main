@@ -25,7 +25,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/squishydino44/rank/ma
 loadstring(game:HttpGet("https://raw.githubusercontent.com/squishydino44/rank/main/aim%20auto%20predict"))()
 
 if  getgenv().SilentAim == true then
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/squishydino44/rank/main/silent%20aim"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/squishydino44/rank/main/dhm%20silent%20aim"))()
             end
 -- // DO NOT EDIT ABOVE // --
 
